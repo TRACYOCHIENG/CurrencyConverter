@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_dollaramount"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:hint="enter amount in KES">
+
+    </EditText>
+
+
+    <TextView
+        android:id="@+id/tv_KES_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_dollaramount"
+        android:text="Amount "
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_KES_Amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_dollaramount"
+        android:text=""
+        android:textColor="@color/black"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/tv_KES_text">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_usd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_KES_Amount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="usd">
+
+    </Button>
+
+
+    <Button
+        android:id="@+id/btn_euro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="euro"
+        android:layout_below="@id/btn_usd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp">
+
+    </Button>
+
+
+    <Button
+        android:id="@+id/btn_indrupee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ind rupee"
+        android:layout_below="@id/btn_euro"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp">
+
+    </Button>
+
+    <Button
+    android:id="@+id/btn_sarand"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="sa rand"
+    android:layout_below="@id/btn_indrupee"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="50dp">
+
+</Button>
+
+    <Button
+    android:id="@+id/btn_sfranc"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="s franc"
+    android:layout_below="@id/btn_sarand"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="50dp">
+
+</Button>
+
+
+
+</RelativeLayout>
